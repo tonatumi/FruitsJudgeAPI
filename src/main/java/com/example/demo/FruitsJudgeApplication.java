@@ -24,7 +24,7 @@ public class FruitsJudgeApplication {
             //判別結果を入れるリストを作成。
             List<FoodDTO> resultList = new ArrayList<FoodDTO>();
 
-            //人間かどうかを判定するプログラムを記述
+            //果物かどうかを判定するプログラムを記述
             for (int i = 0; i < food.size(); ++i) {
                 if (food.get(i).getType().equals("fruit")) {
                     resultList.add(food.get(i));
